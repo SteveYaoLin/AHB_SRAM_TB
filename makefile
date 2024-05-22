@@ -9,6 +9,7 @@ VCS = vcs -f filelist.f \
 	-fsdb \
 	-lca -kdb \
 	-ntb_opts uvm-1.1 \
+	-top ahb_ahb_sram_tb \
 	-sverilog \
 	+v2k
 
