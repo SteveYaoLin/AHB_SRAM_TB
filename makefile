@@ -8,6 +8,8 @@ VCS = vcs -f filelist.f \
 	+define+FSDB \
 	-fsdb \
 	-lca -kdb \
+	-fsdb tb_ahb.fsdb \
+	-sverilog \
 	-ntb_opts uvm-1.1 \
 	-top ahb_ahb_sram_tb \
 	-sverilog \
